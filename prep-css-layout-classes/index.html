@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      color: crimson;
+    }
+
+    h3 {
+      text-align: center;
+      color: crimson;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100%/3);
+      padding: 5px;
+    }
+
+    img {
+      width: 100%;
+
+    }
+
+    p {
+      text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Scary Movies I saw this year</h1>
+
+    <div class="row">
+
+      <div class="column"> <img src="https://i.imgur.com/fNTLVJy.png" alt="smile">
+        <h3>
+          Smile
+        </h3>
+        <p>
+          a really really scarey movie that has a unique take on how trauma manifests and festers within us. I haven't
+          seen a film accurately portray inner trauma like this since Babadook. I saw this alone in a near empty theater
+          and man I was so terrified, never again.
+        </p>
+      </div>
+      <div class="column"> <img src="https://i.imgur.com/uBBWRNF.png" alt="barbarian">
+        <h3>
+          Barbarian
+        </h3>
+        <p>
+          Initially released with huge hype then people hated on it because of said hype, Barbarian does what it set out
+          to do very well. Ask me IRL and i'll tell you why it's good
+        </p>
+      </div>
+      <div class="column"><img src="https://i.imgur.com/oiGGM4V.png" alt="black phone">
+        <h3>
+          Black Phone
+        </h3>
+        <p>
+          Decent scary movie, my girlfriend laughed at me at one of the jumpscares.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Complete the HTML here -->
+
+</body>
+
+</html>
