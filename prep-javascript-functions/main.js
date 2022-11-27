@@ -48,7 +48,7 @@ const getFullNameValue = getFullName('Alex', 'Raymond');
 console.log(getFullNameValue);
 
 function cube(number) {
-  return number ^ 3;
+  return number * number * number;
 }
 
 const cubeValue = cube(4);
